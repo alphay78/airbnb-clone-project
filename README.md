@@ -19,3 +19,18 @@ The AirBnB Clone Project is a backend-focused application designed to replicate 
 - **Caching:** Redis  
 - **Containerization:** Docker  
 - **CI/CD:** GitHub Actions / Automated pipelines
+
+## Team Roles
+
+- **Backend Developer:**  
+  Responsible for implementing API endpoints, writing business logic, and ensuring the backend supports all core functionalities such as user management, property listings, bookings, payments, and reviews.
+
+- **Database Administrator (DBA):**  
+  Manages database design, schema creation, indexing, and optimizations to ensure efficient data storage and retrieval.
+
+- **DevOps Engineer:**  
+  Handles deployment, monitoring, scaling of backend services, and sets up CI/CD pipelines to automate testing and deployment processes.
+
+- **QA Engineer:**  
+  Ensures backend functionalities work as intended by performing rigorous testing, identifying bugs, and verifying that the application meets quality standards.
+
