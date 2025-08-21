@@ -155,5 +155,12 @@ Securing the backend APIs is critical to protect user data, ensure safe transact
 - **Secure Payment Handling**  
   Payment transactions will follow secure protocols to protect financial data and ensure compliance with industry standards.
 
+## CI/CD Pipeline
+
+Continuous Integration and Continuous Deployment (CI/CD) pipelines automate testing, building, and deploying code changes. They are important for the project because they ensure reliable and consistent deployments, catch errors early, and streamline the development process.
+
+Tools that could be used for this project include GitHub Actions and Docker.
+
+
 
 
