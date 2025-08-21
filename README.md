@@ -11,14 +11,6 @@ The AirBnB Clone Project is a backend-focused application designed to replicate 
 - **Review System:** Allow users to post and manage property reviews.  
 - **Data Optimization:** Implement indexing and caching for efficient data retrieval and performance.  
 
-## Tech Stack
-- **Backend Framework:** Django  
-- **API Frameworks:** Django REST Framework, GraphQL  
-- **Database:** PostgreSQL  
-- **Asynchronous Tasks:** Celery  
-- **Caching:** Redis  
-- **Containerization:** Docker  
-- **CI/CD:** GitHub Actions / Automated pipelines
 
 ## Team Roles
 
@@ -33,4 +25,22 @@ The AirBnB Clone Project is a backend-focused application designed to replicate 
 
 - **QA Engineer:**  
   Ensures backend functionalities work as intended by performing rigorous testing, identifying bugs, and verifying that the application meets quality standards.
+
+## Technology Stack
+
+- **Django:** A high-level Python web framework used for building the backend and RESTful APIs. Provides rapid development and a clean, pragmatic design.  
+
+- **Django REST Framework (DRF):** An extension of Django that simplifies the creation and management of RESTful APIs, including authentication, serialization, and CRUD operations.  
+
+- **GraphQL:** A query language for APIs that allows clients to request exactly the data they need, providing flexibility and efficiency in retrieving backend data.  
+
+- **PostgreSQL:** A powerful relational database system used to store and manage all project data, including users, properties, bookings, payments, and reviews.  
+
+- **Celery:** A distributed task queue for handling asynchronous tasks such as sending notifications or processing payments in the background.  
+
+- **Redis:** An in-memory data store used for caching frequently accessed data and managing session information to improve performance.  
+
+- **Docker:** A containerization platform used to create consistent development and deployment environments for the backend services.  
+
+- **CI/CD Pipelines (GitHub Actions):** Automated pipelines for testing, building, and deploying code changes efficiently while minimizing human error.
 
