@@ -4,12 +4,15 @@
 The AirBnB Clone Project is a backend-focused application designed to replicate core features of Airbnb, providing a robust and scalable platform for managing users, property listings, bookings, payments, and reviews. The project emphasizes best practices in backend development, database optimization, API design, and application security, enabling learners to build a real-world, production-ready system.
 
 ## Project Goals
-- **User Management:** Secure registration, authentication, and profile management.  
-- **Property Management:** Creation, update, retrieval, and deletion of property listings.  
-- **Booking System:** Enable users to make, manage, and track bookings.  
-- **Payment Processing:** Handle transactions and record payment details.  
-- **Review System:** Allow users to post and manage property reviews.  
-- **Data Optimization:** Implement indexing and caching for efficient data retrieval and performance.  
+
+The AirBnB Clone project aims to build a robust and scalable backend platform that replicates key functionalities of Airbnb. The main goals are:
+
+- **Secure User Management:** Implement registration, authentication, and profile management for guests and hosts.  
+- **Efficient Property Management:** Allow hosts to create, update, and manage property listings.  
+- **Seamless Booking System:** Enable users to reserve properties, manage bookings, and track check-in/check-out details.  
+- **Reliable Payment Processing:** Handle transactions securely and record payment details accurately.  
+- **Feedback and Review System:** Allow users to post ratings and reviews for properties, enhancing trust and transparency.  
+- **Optimized Data Handling:** Ensure fast and efficient data retrieval through database design, indexing, and caching strategies.
 
 
 ## Team Roles
