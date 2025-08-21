@@ -44,3 +44,69 @@ The AirBnB Clone Project is a backend-focused application designed to replicate 
 
 - **CI/CD Pipelines (GitHub Actions):** Automated pipelines for testing, building, and deploying code changes efficiently while minimizing human error.
 
+## Database Design
+
+The AirBnB Clone project uses a relational database to manage users, properties, bookings, payments, and reviews efficiently.
+
+### **Entities and Key Fields**
+
+1. **Users**
+   - `id` (Primary Key)
+   - `username`
+   - `email`
+   - `password` (hashed)
+   - `role` (guest, host, admin)  
+   **Relationships:**  
+   - A user can own multiple properties.  
+   - A user can make multiple bookings.  
+   - A user can post multiple reviews.
+
+2. **Properties**
+   - `id` (Primary Key)
+   - `title`
+   - `description`
+   - `location`
+   - `price_per_night`
+   - `owner_id` (Foreign Key → Users)  
+   **Relationships:**  
+   - Each property belongs to one user (host).  
+   - A property can have multiple bookings and reviews.
+
+3. **Bookings**
+   - `id` (Primary Key)
+   - `user_id` (Foreign Key → Users)
+   - `property_id` (Foreign Key → Properties)
+   - `check_in_date`
+   - `check_out_date`  
+   **Relationships:**  
+   - Each booking belongs to one user and one property.  
+   - A booking can have one payment.
+
+4. **Payments**
+   - `id` (Primary Key)
+   - `booking_id` (Foreign Key → Bookings)
+   - `amount`
+   - `payment_method`
+   - `status` (paid, pending)  
+   **Relationships:**  
+   - Each payment is linked to exactly one booking.
+
+5. **Reviews**
+   - `id` (Primary Key)
+   - `user_id` (Foreign Key → Users)
+   - `property_id` (Foreign Key → Properties)
+   - `rating` (1–5)
+   - `comment`  
+   **Relationships:**  
+   - Each review is linked to one user and one property.
+
+---
+
+### **Entity Relationships Summary**
+- A **User** can own multiple **Properties**, make multiple **Bookings**, and post multiple **Reviews**.  
+- A **Property** belongs to a **User** and can have multiple **Bookings** and **Reviews**.  
+- A **Booking** belongs to one **User** and one **Property**, and can have one **Payment**.  
+- A **Payment** is associated with a single **Booking**.  
+- A **Review** is linked to a single **User** and a single **Property**.
+
+
