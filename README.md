@@ -109,4 +109,25 @@ The AirBnB Clone project uses a relational database to manage users, properties,
 - A **Payment** is associated with a single **Booking**.  
 - A **Review** is linked to a single **User** and a single **Property**.
 
+## Feature Breakdown
+
+1. **User Management**  
+Handles user registration, authentication, and profile management. This feature ensures secure access to the platform and allows users to interact with properties, bookings, and reviews based on their roles (guest or host).
+
+2. **Property Management**  
+Enables hosts to create, update, retrieve, and delete property listings. This feature allows the platform to maintain a catalog of available accommodations with relevant details such as location, price, and description.
+
+3. **Booking System**  
+Allows users to make, update, and manage reservations for properties. This feature ensures that users can select check-in and check-out dates, view availability, and track their bookings efficiently.
+
+4. **Payment Processing**  
+Manages payment transactions for bookings using various payment methods. This feature ensures secure handling of financial data and accurate recording of completed transactions.
+
+5. **Review System**  
+Enables users to leave ratings and comments on properties they have stayed in. This feature helps maintain transparency, provides feedback to hosts, and guides future users in choosing accommodations.
+
+6. **Data Optimization**  
+Implements indexing and caching strategies to improve database performance and reduce response times. This feature ensures the backend remains scalable and efficient under high user load.
+
+
 
