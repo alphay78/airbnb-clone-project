@@ -133,4 +133,27 @@ Enables users to leave ratings and comments on properties they have stayed in. T
 Implements indexing and caching strategies to improve database performance and reduce response times. This feature ensures the backend remains scalable and efficient under high user load.
 
 
+## API Security
+
+Securing the backend APIs is critical to protect user data, ensure safe transactions, and maintain overall platform integrity. Key security measures for the AirBnB Clone project include:
+
+- **Authentication**  
+  Users must register and log in to access the platform. Authentication ensures that only verified users can perform actions like booking properties or posting reviews, protecting sensitive user information.
+
+- **Authorization**  
+  Role-based access control (guest, host, admin) restricts actions based on user permissions. For example, only hosts can create or update property listings, while guests can only make bookings or leave reviews.
+
+- **Data Encryption**  
+  Sensitive data such as passwords and payment information will be encrypted using industry-standard hashing and encryption algorithms. This protects data from unauthorized access or breaches.
+
+- **Rate Limiting**  
+  Limiting the number of requests per user/IP prevents abuse, brute-force attacks, and ensures stable API performance under high traffic.
+
+- **Input Validation & Sanitization**  
+  All inputs from users will be validated and sanitized to prevent SQL injection, XSS, and other common attacks.
+
+- **Secure Payment Handling**  
+  Payment transactions will follow secure protocols to protect financial data and ensure compliance with industry standards.
+
+
 
