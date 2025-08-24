@@ -157,7 +157,7 @@ Securing the backend APIs is critical to protect user data, ensure safe transact
 
 ## CI/CD Pipeline
 
-Continuous Integration and Continuous Deployment (CI/CD) pipelines automate testing, building, and deploying code changes. They are important for the project because they ensure reliable and consistent deployments, catch errors early, and streamline the development process.
+Continuous Integration and Continuous Deployment (CI/CD) pipelines automate testing, building, and deploying code changes. They are important for the project because they enable faster and more reliable deployments, ensure automated testing that catches errors early, and help maintain a consistent, streamlined development process.
 
 Tools that could be used for this project include GitHub Actions and Docker.
 
